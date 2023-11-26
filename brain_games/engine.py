@@ -16,8 +16,8 @@ def run(game):
             print(
                 f"'{user_answer}' is wrong answer ;(."
                 f"Correct answer was '{answer}'."
-                f"Let's try again, {name}!"
             )
+            print(f"Let's try again, {name}!")
             return
         print('Correct!')
     print(f'Congratulations, {name}!')
