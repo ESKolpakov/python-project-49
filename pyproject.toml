@@ -1,9 +1,11 @@
 [tool.poetry]
 name = "hexlet-code"
 version = "0.1.0"
-description = ""
+description = "Created 5 games: even, calc, gcd, progression, prime"
 authors = ["Evgeniy Kolpakov <eskolpakov@gmail.com>"]
 readme = "README.md"
+repository = "https://github.com/ESKolpakov/python-project-49.git"
+classifiers = [""]
 packages = [
   { include = "brain_games" },
 ]
