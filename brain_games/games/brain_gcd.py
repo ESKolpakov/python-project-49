@@ -7,7 +7,7 @@ RULES = 'Find the greatest common divisor of given numbers.'
 def find_gcd(a, b):
     if b == 0:
         return abs(a)
-    return find_gcd(b, a % b) 
+    return find_gcd(b, a % b)
 
 
 def generate_question_and_answer():
